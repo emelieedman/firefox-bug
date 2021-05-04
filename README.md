@@ -1,3 +1,7 @@
+I am trying to use mix-blend-mode with a mp4 in the background. The idea is to have div with some text and have the video play in the background for an effect on the letters. This works perfectly with every browser besides Firefox.
+
+On Firefox the video plays in the background but mix-blend-mode doesn't seem to have any effect. The text is just black. Here is the weird part: If I open the inspector the animations start to work but for one time only. I thought it might be a permission issue and allowed autoplay but that didn't solve the problem. I haven't been able to find what causes the bug. Any suggestions or hacks would be most welcome :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
