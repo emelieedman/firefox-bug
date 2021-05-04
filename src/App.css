@@ -1,0 +1,75 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.scroll-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.background-video {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  mix-blend-mode: screen;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 15vh;
+  margin: 0;
+  width: 100vw;
+  background: rgb(255, 255, 255);
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 15vw;
+  font-weight: bolder;
+  line-height: 95%;
+  letter-spacing: 1vw;
+  z-index: 1;
+}
+
+.text p {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0;
+  padding-top: 15vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 40vh;
+  width: 100vw;
+  background: rgb(255, 255, 255);
+  color: black;
+  font-family: 'anton', sans-serif;
+  font-size: 2vw;
+  line-height: 200%;
+  letter-spacing: 0;
+  z-index: 1;
+  mix-blend-mode: screen;
+}
+
+.text p span {
+  font-size: 3.5vw;
+}
